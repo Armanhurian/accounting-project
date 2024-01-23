@@ -1,0 +1,11 @@
+<div class="form-container">
+    <div class="my-form-box">
+        <form action="/panel" [formGroup]="myLoginForm" (ngSubmit)="submitLogin()" class="my-form" method="post">
+            <h3 class="my-form-box-title" style="text-align: center;margin-bottom: 3rem;">ورود به پنل مدیریتی</h3>
+            <input formControlName="username"  class="my-form-box-username" type="text" placeholder="نام کاربری">
+            <input formControlName="password" class="my-form-box-password" type="password" placeholder="رمز عبور">
+            <button class="my-form-box-btn" type="submit">ورود</button>
+        </form>
+    </div>
+    <img class="my-image" src="../../assets/images/antnodeskdb.gif" alt="" srcset="">
+</div>

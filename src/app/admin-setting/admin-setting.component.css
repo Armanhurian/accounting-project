@@ -1,0 +1,53 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.my-form-box{
+
+    width: 30%;
+    font-family: yekan;
+}
+.my-form{
+    display: flex;
+    flex-direction: column;
+}
+.my-image{
+    width: 50%;
+}
+.my-form-box-username::placeholder{
+    font-family: yekan;
+}
+.my-form-box-username{
+    padding: 0.7rem;
+    border: none;
+    box-shadow: 0 0 5px #b6b6b6;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    font-family: yekan;
+    outline: none;
+}
+.my-form-box-password::placeholder{
+    font-family: yekan;
+}
+.my-form-box-password{
+    padding: 0.7rem;
+    font-family: yekan;
+    border: none;
+    box-shadow: 0 0 5px #b6b6b6;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.my-form-box-btn{
+    margin-top: 2rem;
+    font-family: yekan;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #4ab19b;
+    color: white;
+    cursor: pointer;
+
+}

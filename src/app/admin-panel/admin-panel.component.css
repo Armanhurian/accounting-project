@@ -1,0 +1,10 @@
+.title-of-panel{
+    background-color: blue;
+    color: white;
+    font-family: yekan;
+}
+.btn-output{
+    font-family: yekan;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.783);
+}

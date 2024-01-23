@@ -1,0 +1,19 @@
+.menu-list{
+    list-style: none;
+    display: flex;
+    /* gap: 1rem; */
+    font-family: yekan;
+    background-color: #2980b9;
+}
+.menu-list-item-link{
+    text-decoration: none;
+    color: white;
+    padding: 0 1rem;
+}
+.active{
+
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 200ms ease-in;
+
+}
